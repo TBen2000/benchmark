@@ -14,7 +14,7 @@
 #include <fstream>
 #include <chrono>
 #include <nlohmann/json.hpp>
-#include "ConcreteScenarios/PersonScenario.hpp"
+#include "Scenarios/PersonScenario.hpp"
 #include <sys/stat.h>
 
 enum EncoderEnum
