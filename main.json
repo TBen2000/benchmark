@@ -1,0 +1,27 @@
+{
+    "scenarioPointers": [
+        {
+            "scenario": "Person",
+            "encoder": "Text",
+            "dataStorage": "File",
+            "filename": ""
+        },
+        {
+            "scenario": "Person",
+            "encoder": "Protobuf",
+            "dataStorage": "File"
+        },
+
+        {
+            "scenario": "Person",
+            "encoder": "Text",
+            "dataStorage": "SQLiteTEXT",
+            "filename": "StoragedData/text.db"
+        },
+        {
+            "scenario": "Person",
+            "encoder": "Text",
+            "dataStorage": "Void"
+        }
+    ]
+}
